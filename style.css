@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    display: block;
+    margin-top: 47px;
+    
+
+}
+
+
+
+.caixa-esquerda {
+    display: inline-block;
+
+}
+
+
+.caixa-direita {
+    display: inline-block;
+    width: 700px;
+   
+    top:48%;
+    
+}
+
+a {
+    width: 87px;
+    height: 20px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 47px 32px;
+    cursor: pointer;
+    
+}
+
+button {
+    width: 124px;
+    height: 51px;
+    color: white;
+    background:#6fbf44;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 45px;
+}
+
+h1 {
+    width: 750px;
+    height: 164px;
+    font-weight: 700;
+    line-height: 82px;
+    font-size: 95px;
+    margin-left: 230px;
+    margin-bottom: 45px;
+}
+
+p {
+    width:493px;
+    height:99px;
+    font-size: 20px;
+    margin-left: 230px;
+    line-height: 35px;
+    margin-bottom: 45px;
+}
+
+
+
+img {
+    margin-left: 121px;
+    margin-top: 246px;
+    Width: 800px;
+    Height:700px;
+}
+
+.link {
+
+    margin-left: 230px;
+    letter-spacing: 0.9px;
+    color: #6fbf44;
+    cursor: pointer;
+}
+
+a:hover{
+  font-size: 29px;
+}
+
+a:active{
+    color: rgb(117, 117, 117);
+}
+
+button:hover {
+    width: 134px;
+    height: 61px;
+}
+ 
+button:active {
+      background: #b7daa3;
+}
+
+.link:active{
+    color: #9fd383;
+}
+
+
+@media screen and (max-width: 900px) {
+
+
+header {
+    display: block;
+    margin-left: 600px;
+}
+
+button{
+ 
+   
+}
+    
+.caixa-esquerda {
+       display: block;
+}
+
+.caixa-direita {
+    display: block;
+    margin-top: 170px;
+    text-align: center;
+}
+
+main {
+    width: 100vw;
+   
+    
+}
+
+h1{
+    margin-top: 99px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 50px;
+    width: 399px;
+    height: 85px;
+}
+
+p{
+   
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 290px;
+    width:304px;
+    height:165px;
+}
+
+.link {
+    
+    width:112px;
+    height:27px;
+    margin-bottom: 50px;
+}
+
+img{
+    position: absolute;
+    width:550px;
+    height: 450px;
+    margin-top: 700px;
+    margin-left: 155px;
+}
+
+
+.link-1{
+    display: none;
+}
+
+
+
+  
+
+}
