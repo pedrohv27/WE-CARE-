@@ -5,42 +5,46 @@
     font-family: "Montserrat", sans-serif;
 }
 
+main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 20% 80%;
+
+    grid-template-areas: 
+    "header header"
+    "caixa-texto caixa-imagem";
+}
+
 header {
     display: block;
-    margin-top: 47px;
-    
+    padding: 5% 0 0 15%;
+}
 
+.caixa-imagem {
+   grid-area: caixa-imagem;
+   width: 50%;
 }
 
 
-
-.caixa-esquerda {
-    display: inline-block;
-
-}
-
-
-.caixa-direita {
-    display: inline-block;
-    width: 700px;
-   
+.caixa-texto {
+    width: 50%;
     top:48%;
-    
+    grid-area: caixa-texto;
+    padding: 20% 0 0 15%;
 }
 
 a {
-    width: 87px;
+    width: 60px;
     height: 20px;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 32px;
-    margin: 47px 32px;
+    margin-right: 30px ;
     cursor: pointer;
-    
 }
 
 button {
-    width: 124px;
+    width: 100px;
     height: 51px;
     color: white;
     background:#6fbf44;
@@ -48,43 +52,39 @@ button {
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    margin-left: 45px;
+    
 }
 
 h1 {
-    width: 750px;
+    width: 600px;
     height: 164px;
     font-weight: 700;
     line-height: 82px;
-    font-size: 95px;
-    margin-left: 230px;
-    margin-bottom: 45px;
+    font-size: 65px;
+    margin-bottom: 5px;
 }
 
 p {
-    width:493px;
+    width:480px;
     height:99px;
     font-size: 20px;
-    margin-left: 230px;
     line-height: 35px;
-    margin-bottom: 45px;
+    margin-bottom: 5px;
 }
 
 
 
 img {
-    margin-left: 121px;
-    margin-top: 246px;
-    Width: 800px;
-    Height:700px;
+    Width: 700px;
+    Height:600px;
 }
 
 .link {
-
-    margin-left: 230px;
+    font-size: 18px;
     letter-spacing: 0.9px;
     color: #6fbf44;
     cursor: pointer;
+    margin-left: 0;
 }
 
 a:hover{
